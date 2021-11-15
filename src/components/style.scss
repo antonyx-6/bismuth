@@ -193,7 +193,14 @@ input:focus::placeholder {
 }
 
 .card-link {
-	color: #5fa1ee;
+	color: #679ed5;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.card-link:hover {
+	color: #4E85BC;
+	text-decoration: none;
 }
 
 

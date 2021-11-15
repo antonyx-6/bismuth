@@ -8,6 +8,7 @@ import { Container, Row, Col, Card, Image } from 'react-bootstrap';
 
 import ProjectImage from "../images/project-image.jpg"
 
+import { FaGithub } from 'react-icons/fa'
 
 import NodeImage from "../images/core-bismuth-node.svg"
 import HypernodeImage from "../images/core-bismuth-hypernode.svg"
