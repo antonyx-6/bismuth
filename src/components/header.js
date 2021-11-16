@@ -31,7 +31,10 @@ const Header = ({ siteTitle }) => {
                <ExactNavLink className="nav-link" to="/resources/">Resources</ExactNavLink>
             </li>
             <li class="nav-item">
-               <ExactNavLink className="nav-link" to="/wallets/">Wallets</ExactNavLink>
+               <ExactNavLink className="nav-link" to="/bismuth-wallets/">Bismuth Wallets</ExactNavLink>
+            </li>
+            <li class="nav-item">
+               <ExactNavLink className="nav-link" to="/buy-bismuth/">Buy Bismuth</ExactNavLink>
             </li>
             <li class="nav-item dropdown">
                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Drop</a>

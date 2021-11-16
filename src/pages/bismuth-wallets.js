@@ -16,7 +16,7 @@ const WalletsPage = () => (
   <Seo title="Wallets" />
   <div className="title-bar py-5" fluid>
     <Container>
-      <h1 class="m-0">Wallets</h1>
+      <h1 class="m-0">Bismuth Wallets</h1>
     </Container>
   </div>
   <Container>
@@ -67,8 +67,8 @@ const WalletsPage = () => (
                 <FaApple size={30} className="icon-blue me-2"/>
               </div>
               <div>
-                <Button variant="primary" size="lg" >
-                More Info
+                <Button variant="primary" size="md" >
+                  TornadoWallet
                 </Button>
               </div>
             </div>
@@ -119,8 +119,8 @@ const WalletsPage = () => (
                 <DiAndroid size={30} className="icon-blue me-2 mt-1"/>
               </div>
               <div>
-                <Button variant="primary" size="lg" >
-                More Info
+                <Button variant="primary" size="md" >
+                my Bismuth Wallet
                 </Button>
               </div>
             </div>
@@ -135,7 +135,7 @@ const WalletsPage = () => (
                 <Image src={BismuthWalletIcon} height={32} className="me-3"/>
               </div>
               <div>
-                <h4 className="mt-1 mb-0">BIS Paper</h4>
+                <h4 className="mt-1 mb-0">BIS Paper Wallet </h4>
               </div>
               <div className="ms-auto">
                 <RiFilePaperLine size={28} className="icon-purple mt-1"/>
@@ -170,8 +170,8 @@ const WalletsPage = () => (
               <div>
               </div>
               <div>
-                <Button variant="primary" size="lg" >
-                More Info
+                <Button variant="primary" size="md" >
+                BIS Paper Wallet
                 </Button>
               </div>
             </div>
@@ -223,8 +223,8 @@ const WalletsPage = () => (
                 <FaLinux size={28} className="icon-blue me-2 mt-1"/>
               </div>
               <div>
-                <Button variant="primary" size="lg" >
-                More Info
+                <Button variant="primary" size="md" >
+                tk-wallet
                 </Button>
               </div>
             </div>
