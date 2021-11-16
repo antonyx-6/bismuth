@@ -23,7 +23,7 @@ const ResourcesPage = () => (
     <div className="py-5">
       <Row className="gx-5">
         <Col lg={3}>
-        <h2 className="side-heading">Core Agpps</h2>
+        <h2 className="side-heading">Core Apps</h2>
         <p className="lead mt-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Col>
         <Col lg={9}>
