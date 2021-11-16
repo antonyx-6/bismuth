@@ -38,7 +38,7 @@ const WalletsPage = () => (
             </div>
           </Card.Header>
           <Card.Body>
-            <p className="lead mt-2 mb-4">A Python/HTML wallet based on the Tornado framework. Available in several languages.</p>
+            <p className="lead mt-2 mb-4">A Python/HTML wallet based on the Tornado framework.</p>
             <Row>
               <Col>
               <div className="mb-2">
