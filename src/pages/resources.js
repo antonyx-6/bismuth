@@ -23,8 +23,8 @@ const ResourcesPage = () => (
     <div className="py-5">
       <Row className="gx-5">
         <Col lg={3}>
-        <h2 className="side-heading">Core Apps</h2>
-        <p className="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h2 className="side-heading">Core Agpps</h2>
+        <p className="lead mt-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Col>
         <Col lg={9}>
         <Row className="g-5">
@@ -35,14 +35,14 @@ const ResourcesPage = () => (
             </div>
             <Card.Body className="border">
               <Card.Title>
-                <h4>
+                <h4 className="my-1">
                   Bismuth Node
                 </h4>
               </Card.Title>
               <Card.Text className="my-3">
                 The backbone of the Bismuth proof-of-work network.
               </Card.Text>
-              <div className="mb-1">
+              <div className="py-1">
                 <span class="badge rounded-pill">Core App</span>
                 <span class="badge rounded-pill">Node</span>
               </div>
@@ -60,14 +60,14 @@ const ResourcesPage = () => (
             </div>
             <Card.Body className="border">
               <Card.Title>
-                <h4>
+                <h4 className="my-1">
                   Bismuth Hypernode
                 </h4>
               </Card.Title>
               <Card.Text className="my-3">
                 The backbone of the Bismuth proof-of-stake network.
               </Card.Text>
-              <div className="mb-1">
+              <div className="py-1">
                 <span class="badge rounded-pill">Core App</span>
                 <span class="badge rounded-pill">Hypernode</span>
               </div>
@@ -89,7 +89,7 @@ const ResourcesPage = () => (
       <Row className="gx-5">
         <Col lg={3}>
         <h2 className="side-heading">dApps</h2>
-        <p className="lead mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <p className="lead mt-3 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Col>
         <Col lg={9}>
         <Row className="g-5">
@@ -100,14 +100,14 @@ const ResourcesPage = () => (
             </div>
             <Card.Body className="border">
               <Card.Title>
-                <h4>
+                <h4 className="my-1">
                   Dragginator
                 </h4>
               </Card.Title>
               <Card.Text className="my-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </Card.Text>
-              <div className="mb-1">
+              <div className="py-1">
                 <span class="badge rounded-pill">dApp</span>
                 <span class="badge rounded-pill">Game</span>
               </div>
@@ -125,14 +125,14 @@ const ResourcesPage = () => (
             </div>
             <Card.Body className="border">
               <Card.Title>
-                <h4>
+                <h4 className="my-1">
                   EV Battery Monitor
                 </h4>
               </Card.Title>
               <Card.Text className="my-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit..
               </Card.Text>
-              <div className="mb-1">
+              <div className="py-1">
                 <span class="badge rounded-pill">dApp</span>
                 <span class="badge rounded-pill">Utility</span>
               </div>
@@ -150,14 +150,14 @@ const ResourcesPage = () => (
             </div>
             <Card.Body className="border">
               <Card.Title>
-                <h4>
+                <h4 className="my-1">
                   DocShield
                 </h4>
               </Card.Title>
               <Card.Text className="my-3">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </Card.Text>
-              <div className="mb-1">
+              <div className="py-1">
                 <span class="badge rounded-pill">dApp</span>
                 <span class="badge rounded-pill">Security</span>
               </div>

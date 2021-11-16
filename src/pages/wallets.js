@@ -27,13 +27,13 @@ const WalletsPage = () => (
           <Card.Header className="align-items-center justify-content-center">
             <div className="d-flex">
               <div>
-                <Image src={BismuthWalletIcon} height={30} className="me-3"/>
+                <Image src={BismuthWalletIcon} height={32} className="me-3"/>
               </div>
               <div>
-                <h4 className="my-0">TornadoWallet</h4>
+                <h4 className="mt-1 mb-0">TornadoWallet</h4>
               </div>
               <div className="ms-auto">
-                <FaDesktop size={28} className="icon-purple"/>
+                <FaDesktop size={28} className="icon-purple mt-1"/>
               </div>
             </div>
           </Card.Header>
@@ -80,13 +80,13 @@ const WalletsPage = () => (
           <Card.Header className="align-items-center justify-content-center">
             <div className="d-flex">
               <div>
-                <Image src={BismuthWalletIcon} height={30} className="me-3"/>
+                <Image src={BismuthWalletIcon} height={32} className="me-3"/>
               </div>
               <div>
-                <h4 className="my-0">my Bismuth Wallet</h4>
+                <h4 className="mt-1 mb-0">my Bismuth Wallet</h4>
               </div>
               <div className="ms-auto">
-                <FaMobileAlt size={28} className="icon-purple"/>
+                <FaMobileAlt size={28} className="icon-purple mt-1"/>
               </div>
             </div>
           </Card.Header>
@@ -132,13 +132,13 @@ const WalletsPage = () => (
           <Card.Header className="align-items-center justify-content-center">
             <div className="d-flex">
               <div>
-                <Image src={BismuthWalletIcon} height={30} className="me-3"/>
+                <Image src={BismuthWalletIcon} height={32} className="me-3"/>
               </div>
               <div>
-                <h4 className="my-0">BIS Paper</h4>
+                <h4 className="mt-1 mb-0">BIS Paper</h4>
               </div>
               <div className="ms-auto">
-                <RiFilePaperLine size={28} className="icon-purple"/>
+                <RiFilePaperLine size={28} className="icon-purple mt-1"/>
               </div>
             </div>
           </Card.Header>
@@ -183,13 +183,13 @@ const WalletsPage = () => (
           <Card.Header className="align-items-center justify-content-center">
             <div className="d-flex">
               <div>
-                <Image src={BismuthWalletIcon} height={30} className="me-3"/>
+                <Image src={BismuthWalletIcon} height={32} className="me-3"/>
               </div>
               <div>
-                <h4 className="my-0">tk-wallet</h4>
+                <h4 className="mt-1 mb-0">tk-wallet</h4>
               </div>
               <div className="ms-auto">
-                <FaDesktop size={28} className="icon-purple"/>
+                <FaDesktop size={28} className="icon-purple mt-1"/>
               </div>
             </div>
           </Card.Header>
