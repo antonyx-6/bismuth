@@ -1,4 +1,6 @@
 $primary: #b364c2;
+$secondary: #679ed5;
+
 @import "~bootstrap/scss/bootstrap";
 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
@@ -72,6 +74,10 @@ $primary: #b364c2;
 
 /* BODY */
 
+.bullet-list {
+	font-family: "Poppins", Sans-serif;
+}
+
 @media (max-width: 768px) {
 	.container {
 		padding-left: 2rem;
@@ -98,7 +104,7 @@ p {
 }
 
 a.purple {
-	color: #b364c2;
+	color: $primary;
 }
 
 a.purple:hover {
@@ -106,7 +112,7 @@ a.purple:hover {
 }
 
 .badge {
-	background: #b364c2;
+	background: $primary;
 	color: #ffffff;
 	border: 0px;
 }
@@ -123,7 +129,7 @@ a.purple:hover {
 /* FORM CONTROLS */
 
 .btn {
-	background: #b364c2;
+	background: $primary;
 	color: white;
 	border: 0px;
 }
@@ -136,7 +142,7 @@ a.purple:hover {
 
 .form-control:focus,
 .btn:focus {
-	border-color: #b364c2;
+	border-color: $primary;
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
 }
 
@@ -159,18 +165,18 @@ input:focus::placeholder {
 .sideproject-link:hover,
 .sideproject-link:focus,
  :target {
-	color: #b364c2;
+	color: $primary;
 }
 
 .sideproject-heading {
-	border-left: 5px solid #b364c2;
+	border-left: 5px solid $primary;
 	padding-left: 0.5em;
 	cursor: pointer;
 	text-decoration: none;
 }
 
 .side-heading {
-	border-left: 5px solid #b364c2;
+	border-left: 5px solid $primary;
 	padding-left: 0.5em;
 	text-decoration: none;
 }
@@ -185,6 +191,25 @@ input:focus::placeholder {
 	}
 }
 
+.icon-purple {
+	color: $primary;
+}
+
+.icon-blue {
+	color: $secondary;
+}
+
+.icon-green {
+	color: #1aa260;
+}
+
+.icon-red {
+	color: #de5246;
+}
+
+.wallet-icon {
+	max-height: 28px;
+}
 
 /* SWIPER */
 
@@ -193,7 +218,7 @@ input:focus::placeholder {
 }
 
 .card-link {
-	color: #679ed5;
+	color: $secondary;
 	text-decoration: none;
 	font-weight: 500;
 }
@@ -224,5 +249,5 @@ input:focus::placeholder {
 /* RESOURCES */
 
 .resource-icon {
-	color: #b364c2;
+	color: $primary;
 }
