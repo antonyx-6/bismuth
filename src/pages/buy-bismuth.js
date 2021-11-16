@@ -105,8 +105,11 @@ const ExchangesPage = () => (
         </div>
       </Col>
     </Row>
+  </Container>
+  <hr className="m-0"/>
+  <Container>
 
-    <h2 className="side-heading my-5">Decentralized Exchanges</h2>
+    <h2 className="side-heading my-5">Decentralized Exchanges (DEX)</h2>
 
 
     <Row className="g-5">
