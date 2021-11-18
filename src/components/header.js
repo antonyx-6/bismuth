@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import { useEffect } from "react"
 
 import BismuthLogo from "../images/bismuth-logo.svg"
+import { FaDiscord } from 'react-icons/fa';
 
 const isActive = ({ isCurrent }) => {
   return isCurrent ? { className: "nav-link active" } : {className: "nav-link"}
@@ -44,6 +45,12 @@ const Header = ({ siteTitle }) => {
                </ul>
             </li>
          </ul>
+         <form class="me-lg-2">
+            <input class="form-control" type="text" placeholder="Search..." aria-label="Search"/>
+         </form>
+         <button class="btn" id="discord-btn">
+            <FaDiscord />
+         </button>
       </div>
    </div>
 </nav>
